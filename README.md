@@ -14,7 +14,7 @@ Workshop solution on PHP functions. September 2022 session.
 * Inclus ton fichier function.php dans index.php.
 * Démarre un serveur HTTP, sa racine doit être dans le répertoire public.
 
-## Fonction
+## Function
 Crée une fonction nommée sayHello permettant d'écrire "Hello Nite Owl".
 
 Une fonction ne doit jamais (sauf cas rare) afficher directement quelque chose (echo, print_r, var_dump...).
