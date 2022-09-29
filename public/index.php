@@ -14,6 +14,6 @@ require $_SERVER['DOCUMENT_ROOT'] . "/src/function.php";
 <body>
 <h2>Exo 1</h2>
 <p>affichage de "Hello Nite Owl" à l'aide d'une fonction :</p>
-<?php sayHello();?>
+<?php echo sayHello();?>
 </body>
 </html>
