@@ -1,5 +1,6 @@
 <?php
 require $_SERVER['DOCUMENT_ROOT'] . "/src/function.php";
+require $_SERVER['DOCUMENT_ROOT'] . "/src/data.php";
 ?>
 <!doctype html>
 <html lang="fr">
@@ -24,6 +25,27 @@ require $_SERVER['DOCUMENT_ROOT'] . "/src/function.php";
 <p>affichage de "Hello Nite Owl" à l'aide d'une fonction avec un paramètre $name :</p>
 <?php
 $name = sayHello("Jean");
+echo $name;
+?>
+<h2>Exo 4</h2>
+<p>affichage de "Hello Nite Owl" à l'aide d'une fonction avec un paramètre $name :</p>
+<?php
+$name = sayHello("Jean");
+echo $name;
+?>
+<h2>Exo 5</h2>
+<p>Watchmen :</p>
+<?php
+$data = array(
+    'Dr. Manhattan',
+    'Ozymandias',
+    'Silk Spectre',
+    'Rorschach',
+    'The comedian',
+    'Nite Owl')
+;
+
+$name = whoAmI("Dr. Manhattan", $data);
 echo $name;
 ?>
 </body>
