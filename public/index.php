@@ -12,7 +12,19 @@ require $_SERVER['DOCUMENT_ROOT'] . "/src/function.php";
 </head>
 <body>
 <h2>Exo 1</h2>
-<p>affichage de "Hello Nite Owl" à l'aide d'une fonction :</p>
-<?php echo sayHello();?>
+<p>affichage de "Hello Nite Owl" à l'aide d'une fonction avec "echo" :</p>
+<?php // echo sayHello();?>
+<h2>Exo 2</h2>
+<p>affichage de "Hello Nite Owl" à l'aide d'une fonction qui retourne le nom :</p>
+<?php
+// $name = sayHello();
+// echo $name;
+?>
+<h2>Exo 3</h2>
+<p>affichage de "Hello Nite Owl" à l'aide d'une fonction avec un paramètre $name :</p>
+<?php
+$name = sayHello("Jean");
+echo $name;
+?>
 </body>
 </html>
