@@ -1,5 +1,5 @@
 <?php
 
-function sayHello(): string {
-    return "Hello Nite Owl";
+function sayHello(string $name): string {
+    return "Hello $name";
 }
